@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="200dp"
+    android:background="#313A5C"
+
+    android:paddingStart="15dp"
+    tools:ignore="RtlSymmetry">
+
+    <TextView
+
+        android:id="@+id/menu_slogan"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:text="@string/banking_at_your_fingertips"
+        tools:ignore="RelativeOverlap"
+        android:textColor="@color/white"/>
+
+    <TextView
+
+        android:fontFamily="@font/baloo"
+        android:id="@+id/app_name"
+        android:layout_above="@id/menu_slogan"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/simuwallet2"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <ImageView
+
+        android:layout_above="@id/app_name"
+
+        android:layout_height="60dp"
+
+        android:layout_width="60dp"
+
+        android:src="@drawable/qq"
+        android:contentDescription="@string/todo11" />
+
+    <ImageView
+
+        android:layout_alignParentBottom="true"
+
+        android:layout_alignParentEnd="true"
+
+        android:layout_height="175dp"
+
+        android:layout_width="160dp"
+
+        android:src="@drawable/ww"
+        android:contentDescription="@string/todo111" />
+
+
+
+
+
+
+</RelativeLayout>

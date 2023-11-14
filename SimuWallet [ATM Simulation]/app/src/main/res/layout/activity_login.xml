@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:orientation="vertical"
+    android:background="#56658E"
+    android:padding="20dp"
+    >
+
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="match_parent"
+        android:layout_height="143dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/did"
+        android:contentDescription="@string/todo"
+        android:transitionName="logo_image"/>
+
+    <TextView
+        android:id="@+id/logo_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:fontFamily="@font/bree_serif"
+        android:text="@string/simuwallettt"
+        android:textColor="#FEF4E8"
+        android:textColorHint="@color/design_default_color_error"
+        android:textSize="40sp"
+        android:transitionName="logo_text"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/slogan_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/amiko"
+        android:text="@string/enter_credentials_to_continue"
+        android:textColor="#FEFFD9"
+        android:textSize="18sp"
+        android:textStyle="bold"
+
+        android:gravity="center"/>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Card_no"
+            android:hint="@string/enter_card_number"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_marginBottom="10dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FCC996"
+                android:inputType="number"
+                android:textStyle="bold"
+                android:textSize="17dp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/pin"
+            android:hint="@string/enter_pin_number"
+            app:passwordToggleEnabled="true"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberPassword"
+                android:background="#FCC996"
+                android:textStyle="bold"
+                android:textSize="17dp"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.button.MaterialButton
+
+            android:id="@+id/btnlogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="15dp"
+            android:background="#3c3b6e"
+            android:text="@string/enter"
+            android:textColor="#303043"
+            android:textSize="18sp"
+            app:backgroundTint="#FDBEC6"
+            android:textStyle="bold"/>
+
+        <com.google.android.material.button.MaterialButton
+
+            android:id="@+id/callreg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_margin="5dp"
+            android:background="#00000000"
+            android:elevation="0dp"
+            android:text="@string/new_user_register_here"
+            android:textColor="#FBF7F7"
+            android:textSize="18dp"
+            tools:ignore="RtlHardcoded" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

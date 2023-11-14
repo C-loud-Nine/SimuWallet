@@ -1,0 +1,59 @@
+<!-- res/layout/transaction_history_item.xml -->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!-- Main Transaction Type -->
+
+    <!-- Subitems for Transaction Details -->
+
+    <TextView
+        android:id="@+id/mainTransactionType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#DCD8D7"
+        android:fontFamily="@font/baloo"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="Transaction Type"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:background="#94A9CD">
+
+        <!-- Amount -->
+        <TextView
+            android:id="@+id/amountTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Amount: $1000"
+            android:textSize="18dp"
+            android:padding="8dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+
+        <!-- Date -->
+        <TextView
+            android:id="@+id/dateTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date: 2023-10-28 04:17:53"
+            android:textSize="16sp"
+            android:padding="8dp"
+            android:textStyle="italic|bold"
+            android:background=" #EBDAD7"/>
+
+    </LinearLayout>
+
+    <!-- Add more subitem views for other transaction details -->
+
+</LinearLayout>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:orientation="vertical"
+    android:background="#F4ABB1"
+    android:padding="20dp"
+    >
+
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="match_parent"
+        android:layout_height="143dp"
+        android:layout_marginTop="40dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/pinchange"
+        android:transitionName="logo_image" />
+
+    <TextView
+        android:id="@+id/pinchangelogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:fontFamily="@font/bree_serif"
+        android:text="@string/simuwallettt"
+        android:textColor="@color/material_dynamic_primary50"
+        android:textColorHint="@color/design_default_color_error"
+        android:textSize="40sp"
+        android:transitionName="logo_text"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/pinchangeslogan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/amiko"
+        android:text="Enter Previous Pin Correctly"
+        android:textColor="@color/material_dynamic_neutral10"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/oldpin"
+        android:hint="Enter Old Pin Number"
+        android:textColorHint="@color/black"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:layout_marginBottom="15dp"
+            android:background="#E9E7E3"
+            android:textStyle="bold"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/newpin"
+        android:hint="Enter New Pin Number"
+        android:textColorHint="@color/black"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:background="#E9E7E3"
+            android:textStyle="bold"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnpinchange"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:background="#3c3b6e"
+            android:text="Save"
+            android:textColor="#F9FAF2"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:backgroundTint="#0f3866" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnpinchangeback"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="Back"
+            android:textColor="#F9FAF2"
+            android:textSize="18sp"
+            app:backgroundTint="#0f3866"
+            android:textStyle="bold"
+            android:background="#3c3b6e"/>
+
+    </LinearLayout>
+</LinearLayout>

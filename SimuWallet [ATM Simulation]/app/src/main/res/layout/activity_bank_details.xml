@@ -1,0 +1,118 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BankDetailsActivity"
+    android:background="#52957C">
+
+    <TextView
+        android:id="@+id/statehead"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/bree_serif"
+        android:gravity="center"
+        android:text="Informations "
+        android:textColor="#413C68"
+        android:textColorHint="@color/design_default_color_error"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:transitionName="logo_text" />
+
+    <TextView
+
+        android:id="@+id/informationTextView"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Details:"
+        android:padding="10dp"
+        android:textSize="18sp"
+        android:background="#8C88D2"
+        android:textStyle="bold"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_below="@id/statehead"
+        android:textColor="#F0F0DB"
+
+        />
+
+    <TextView
+        android:id="@+id/establishmentTextView"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="Establishment:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@id/informationTextView"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:padding="2dp"
+        android:background="#FFFFEF"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/addressTextView"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Address:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@id/establishmentTextView"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:background="#8C88D2"
+        android:padding="10dp"
+        android:textColor="#F0F0DB"/>
+
+    <TextView
+        android:id="@+id/zipCodeTextView"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/addressTextView"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="78dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginRight="16dp"
+        android:padding="1dp"
+        android:text="Zip Code:"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/atmTextView"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:layout_below="@id/addressTextView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="98dp"
+        android:layout_marginLeft="189dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="303dp"
+        android:text="ATM:"
+        android:textColor="#FFFFEF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gif1"
+        android:layout_width="match_parent"
+        android:layout_height="233dp"
+        android:layout_below="@+id/addressTextView"
+        android:layout_alignBottom="@+id/zipCodeTextView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="123dp"
+        android:layout_marginEnd="-6dp"
+        android:layout_marginBottom="-301dp"
+        android:src="@drawable/gif1" />
+</RelativeLayout>

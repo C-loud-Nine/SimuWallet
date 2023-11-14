@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "487591091739",
+    "project_id": "simuwallet-f395e",
+    "storage_bucket": "simuwallet-f395e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:487591091739:android:031d281a504ed5f9b6a2be",
+        "android_client_info": {
+          "package_name": "com.example.project101"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-4Oo6njJ8xPcduXCsSxRveCMFBH8PhH8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/circard"
+        android:label="@string/simuwallett"
+        android:roundIcon="@drawable/circard"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Project101"
+        tools:targetApi="33">
+        <activity
+            android:name=".BankDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StateListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".JsonMain"
+            android:exported="false" />
+        <activity
+            android:name=".Entry"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".onboarding"
+            android:exported="false" />
+        <activity
+            android:name=".NewsFullActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Splash"
+            android:exported="false" />
+        <activity
+            android:name=".Newsmain"
+            android:exported="false" />
+        <activity
+            android:name=".Transaction_history"
+            android:exported="false" />
+        <activity
+            android:name=".Fundtransfer"
+            android:exported="false" />
+        <activity
+            android:name=".Addmoney"
+            android:exported="false" />
+        <activity
+            android:name=".Cashwithdraw"
+            android:exported="false" />
+        <activity
+            android:name=".Pinchange"
+            android:exported="false" />
+        <activity
+            android:name=".Balance_Check"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".UserProfile"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".Dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+
+
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

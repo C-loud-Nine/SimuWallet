@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fundtransfer"
+    android:orientation="vertical"
+    android:background="#4C9EB8"
+    android:padding="20dp"
+    >
+
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="match_parent"
+        android:layout_height="143dp"
+        android:layout_marginTop="40dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/fud"
+        android:transitionName="logo_image" />
+
+    <TextView
+        android:id="@+id/pinchangelogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:fontFamily="@font/bree_serif"
+        android:text="@string/simuwallettt"
+        android:textColor="#ffffff"
+        android:textColorHint="@color/design_default_color_error"
+        android:textSize="40sp"
+        android:transitionName="logo_text"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/pinchangeslogan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/amiko"
+        android:text="Minimun amount must be 500"
+        android:textColor="#ffffffff"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tranfer_to"
+        android:hint="Enter Receivers Card No."
+        android:textColorHint="@color/black"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:layout_marginBottom="15dp"
+            android:background="#F1C0C0"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tran"
+        android:hint="Enter Amount"
+        android:textColorHint="@color/black"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:layout_marginBottom="15dp"
+            android:background="#F1C0C0"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/transferamount"
+        android:hint="Enter Amount"
+        android:textColorHint="@color/black"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"/>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        tools:ignore="ExtraText">
+
+        <Button
+            android:id="@+id/btnfundtrans"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:layout_marginLeft="20dp"
+            android:text="Transfer"
+            android:textColor="#F9FAF2"
+            android:textSize="18sp"
+            app:backgroundTint="#DC6262"
+            android:textStyle="bold"
+            android:background="#3c3b6e"/>
+        >
+
+        <Button
+            android:id="@+id/btn_fundtraans_back"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="Back"
+            android:textColor="#F9FAF2"
+            android:textSize="18sp"
+            app:backgroundTint="#DC6262"
+            android:textStyle="bold"
+            android:background="#3c3b6e"/>
+        />
+
+    </LinearLayout>
+</LinearLayout>

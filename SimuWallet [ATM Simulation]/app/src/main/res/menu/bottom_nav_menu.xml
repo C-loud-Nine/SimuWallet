@@ -1,0 +1,17 @@
+<!-- bottom_nav_menu.xml -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_cash_in"
+        android:title="IN"
+        android:icon="@drawable/incash"/>
+    <item
+        android:id="@+id/nav_all"
+        android:title="All"
+        android:icon="@drawable/allcash"/>
+
+    <item
+        android:id="@+id/nav_cash_out"
+        android:title="OUT"
+        android:icon="@drawable/outcash"/>
+</menu>

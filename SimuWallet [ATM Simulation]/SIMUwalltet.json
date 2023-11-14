@@ -1,0 +1,1119 @@
+{
+  "data": {
+      "Simuwallet": [
+          {
+              "bank": [
+                  {
+                      "State": "Dhaka",
+                      "address": {
+                          "city": "Dhaka",
+                          "street": "1 Gulshan Avenue",
+                          "zipCode": "1212"
+                      },
+                      "information": {
+                          "email": "dhaka_bank@gmail.com",
+                          "hasATM": true,
+                          "contact": "+880 2 5555 1234",
+                          "zipCode": "1212"
+                      },
+                      "Establishment": "1999"
+                  },
+                  {
+                      "State": "Chittagong",
+                      "address": {
+                          "city": "Chittagong",
+                          "street": "5 Foy's Lake Road",
+                          "zipCode": "4000"
+                      },
+                      "information": {
+                          "email": "chittagong_bank@gmail.com",
+                          "hasATM": true,
+                          "contact": "+880 31 5555 4321",
+                          "zipCode": "4000"
+                      },
+                      "Establishment": "2005"
+                  },
+                  {
+                      "State": "Khulna",
+                      "address": {
+                          "city": "Khulna",
+                          "street": "10 Khan Jahan Ali Road",
+                          "zipCode": "9000"
+                      },
+                      "information": {
+                          "email": "khulna_bank@gmail.com",
+                          "hasATM": true,
+                          "contact": "+880 41 5555 6789",
+                          "zipCode": "9000"
+                      },
+                      "Establishment": "2003"
+                  },
+                  {
+                      "State": "Rajshahi",
+                      "address": {
+                          "city": "Rajshahi",
+                          "street": "7 Shah Makhdum Avenue",
+                          "zipCode": "6000"
+                      },
+                      "information": {
+                          "email": "rajshahi_bank@gmail.com",
+                          "hasATM": true,
+                          "contact": "+880 721 5555 9876",
+                          "zipCode": "6000"
+                      },
+                      "Establishment": "2007"
+                  },
+                  {
+                      "State": "Sylhet",
+                      "address": {
+                          "city": "Sylhet",
+                          "street": "15 Surma Tower Road",
+                          "zipCode": "3100"
+                      },
+                      "information": {
+                          "email": "sylhet_bank@gmail.com",
+                          "hasATM": true,
+                          "contact": "+880 821 5555 2468",
+                          "zipCode": "3100"
+                      },
+                      "Establishment": "2010"
+                  },
+                  {
+                      "State": "Barisal",
+                      "address": {
+                          "city": "Barisal",
+                          "street": "5 Patuakhali Road",
+                          "zipCode": "8200"
+                      },
+                      "information": {
+                          "email": "barisal_bank@gmail.com",
+                          "hasATM": true,
+                          "contact": "+880 431 5555 1234",
+                          "zipCode": "8200"
+                      },
+                      "Establishment": "2006"
+                  },
+                  {
+                      "State": "Comilla",
+                      "address": {
+                          "city": "Comilla",
+                          "street": "10 Kandirpar Road",
+                          "zipCode": "3500"
+                      },
+                      "information": {
+                          "email": "comilla_bank@gmail.com",
+                          "hasATM": true,
+                          "contact": "+880 81 5555 4321",
+                          "zipCode": "3500"
+                      },
+                      "Establishment": "2009"
+                  },
+                  {
+                      "State": "Narayanganj",
+                      "address": {
+                          "city": "Narayanganj",
+                          "street": "7 Fatullah Road",
+                          "zipCode": "1400"
+                      },
+                      "information": {
+                          "email": "narayanganj_bank@gmail.com",
+                          "hasATM": true,
+                          "contact": "+880 763 5555 6789",
+                          "zipCode": "1400"
+                      },
+                      "Establishment": "2008"
+                  },
+                  {
+                      "State": "Mymensingh",
+                      "address": {
+                          "city": "Mymensingh",
+                          "street": "15 Brahmaputra Bridge Road",
+                          "zipCode": "2200"
+                      },
+                      "information": {
+                          "email": "mymensingh_bank@gmail.com",
+                          "hasATM": true,
+                          "contact": "+880 91 5555 9876",
+                          "zipCode": "2200"
+                      },
+                      "Establishment": "2004"
+                  },
+                  {
+                      "State": "Jessore",
+                      "address": {
+                          "city": "Jessore",
+                          "street": "5 Benapole Road",
+                          "zipCode": "7400"
+                      },
+                      "information": {
+                          "email": "jessore_bank@gmail.com",
+                          "hasATM": true,
+                          "contact": "+880 421 5555 2468",
+                          "zipCode": "7400"
+                      },
+                      "Establishment": "2011"
+                  },
+                  {
+                      "State": "Cox's Bazar",
+                      "address": {
+                          "city": "Cox's Bazar",
+                          "street": "20 Sea Beach Road",
+                          "zipCode": "4700"
+                      },
+                      "information": {
+                          "email": "coxs_bazar_bank@gmail.com",
+                          "hasATM": true,
+                          "contact": "+880 341 5555 1234",
+                          "zipCode": "4700"
+                      },
+                      "Establishment": "2005"
+                  },
+                  {
+                      "State": "Rangpur",
+                      "address": {
+                          "city": "Rangpur",
+                          "street": "8 Tajhat Road",
+                          "zipCode": "5400"
+                      },
+                      "information": {
+                          "email": "rangpur_bank@gmail.com",
+                          "hasATM": true,
+                          "contact": "+880 521 5555 4321",
+                          "zipCode": "5400"
+                      },
+                      "Establishment": "2002"
+                  },
+                  {
+                      "State": "Bogra",
+                      "address": {
+                          "city": "Bogra",
+                          "street": "3 Sherpur Road",
+                          "zipCode": "5800"
+                      },
+                      "information": {
+                          "email": "bogra_bank@gmail.com",
+                          "hasATM": true,
+                          "contact": "+880 51 5555 6789",
+                          "zipCode": "5800"
+                      },
+                      "Establishment": "2001"
+                  },
+                  {
+                      "State": "Dinajpur",
+                      "address": {
+                          "city": "Dinajpur",
+                          "street": "10 Fulbari Road",
+                          "zipCode": "5200"
+                      },
+                      "information": {
+                          "email": "dinajpur_bank@gmail.com",
+                          "hasATM": true,
+                          "contact": "+880 531 5555 9876",
+                          "zipCode": "5200"
+                      },
+                      "Establishment": "2000"
+                  },
+                  {
+                      "State": "Madaripur",
+                      "address": {
+                          "city": "Madaripur",
+                          "street": "7 Kalkini Road",
+                          "zipCode": "7900"
+                      },
+                      "information": {
+                          "email": "madaripur_bank@gmail.com",
+                          "hasATM": true,
+                          "contact": "+880 661 5555 2468",
+                          "zipCode": "7900"
+                      },
+                      "Establishment": "2007"
+                  }
+              ],
+              "country": "Bangladesh"
+          },
+          {
+              "bank": [
+                  {
+                      "State": "London",
+                      "address": {
+                          "city": "London",
+                          "street": "1 Oxford Street",
+                          "zipCode": "SW1A 1AA"
+                      },
+                      "information": {
+                          "email": "london_bank@gmail.com",
+                          "hasATM": false,
+                          "contact": "+44 20 5555 1234",
+                          "zipCode": "SW1A 1AA"
+                      },
+                      "Establishment": "1998"
+                  },
+                  {
+                      "State": "Manchester",
+                      "address": {
+                          "city": "Manchester",
+                          "street": "5 Piccadilly Gardens",
+                          "zipCode": "M1 1RG"
+                      },
+                      "information": {
+                          "email": "manchester_bank@gmail.com",
+                          "hasATM": true,
+                          "contact": "+44 161 5555 4321",
+                          "zipCode": "M1 1RG"
+                      },
+                      "Establishment": "2003"
+                  },
+                  {
+                      "State": "Birmingham",
+                      "address": {
+                          "city": "Birmingham",
+                          "street": "10 Broad Street",
+                          "zipCode": "B1 2HJ"
+                      },
+                      "information": {
+                          "email": "birmingham_bank@gmail.com",
+                          "hasATM": false,
+                          "contact": "+44 121 5555 6789",
+                          "zipCode": "B1 2HJ"
+                      },
+                      "Establishment": "2007"
+                  },
+                  {
+                      "State": "Liverpool",
+                      "address": {
+                          "city": "Liverpool",
+                          "street": "7 Albert Dock",
+                          "zipCode": "L3 4AF"
+                      },
+                      "information": {
+                          "email": "liverpool_bank@gmail.com",
+                          "hasATM": true,
+                          "contact": "+44 151 5555 9876",
+                          "zipCode": "L3 4AF"
+                      },
+                      "Establishment": "2010"
+                  },
+                  {
+                      "State": "Leeds",
+                      "address": {
+                          "city": "Leeds",
+                          "street": "15 Briggate",
+                          "zipCode": "LS1 6ER"
+                      },
+                      "information": {
+                          "email": "leeds_bank@gmail.com",
+                          "hasATM": true,
+                          "contact": "+44 113 5555 2468",
+                          "zipCode": "LS1 6ER"
+                      },
+                      "Establishment": "2015"
+                  }
+              ],
+              "country": "England"
+          },
+          {
+              "bank": [
+                  {
+                      "State": "Paris",
+                      "address": {
+                          "city": "Paris",
+                          "street": "1 Champs-Élysées",
+                          "zipCode": "75008"
+                      },
+                      "information": {
+                          "email": "paris_bank@gmail.com",
+                          "hasATM": true,
+                          "contact": "+33 1 5555 1234",
+                          "zipCode": "75008"
+                      },
+                      "Establishment": "2000"
+                  },
+                  {
+                      "State": "Marseille",
+                      "address": {
+                          "city": "Marseille",
+                          "street": "5 Vieux-Port",
+                          "zipCode": "13002"
+                      },
+                      "information": {
+                          "email": "marseille_bank@gmail.com",
+                          "hasATM": false,
+                          "contact": "+33 4 5555 4321",
+                          "zipCode": "13002"
+                      },
+                      "Establishment": "2005"
+                  },
+                  {
+                      "State": "Lyon",
+                      "address": {
+                          "city": "Lyon",
+                          "street": "10 Place Bellecour",
+                          "zipCode": "69002"
+                      },
+                      "information": {
+                          "email": "lyon_bank@gmail.com",
+                          "hasATM": true,
+                          "contact": "+33 4 5555 6789",
+                          "zipCode": "69002"
+                      },
+                      "Establishment": "2010"
+                  },
+                  {
+                      "State": "Toulouse",
+                      "address": {
+                          "city": "Toulouse",
+                          "street": "7 Place du Capitole",
+                          "zipCode": "31000"
+                      },
+                      "information": {
+                          "email": "toulouse_bank@gmail.com",
+                          "hasATM": false,
+                          "contact": "+33 5 5555 9876",
+                          "zipCode": "31000"
+                      },
+                      "Establishment": "2013"
+                  },
+                  {
+                      "State": "Nice",
+                      "address": {
+                          "city": "Nice",
+                          "street": "15 Promenade des Anglais",
+                          "zipCode": "06000"
+                      },
+                      "information": {
+                          "email": "nice_bank@gmail.com",
+                          "hasATM": true,
+                          "contact": "+33 6 5555 2468",
+                          "zipCode": "06000"
+                      },
+                      "Establishment": "2018"
+                  }
+              ],
+              "country": "France"
+          },
+          {
+              "bank": [
+                  {
+                      "State": "Tokyo",
+                      "address": {
+                          "city": "Tokyo",
+                          "street": "1 Chiyoda",
+                          "zipCode": "100-8111"
+                      },
+                      "information": {
+                          "email": "tokyo_bank@gmail.com",
+                          "hasATM": true,
+                          "contact": "+81 3 5555 1234",
+                          "zipCode": "100-8111"
+                      },
+                      "Establishment": "1995"
+                  },
+                  {
+                      "State": "Osaka",
+                      "address": {
+                          "city": "Osaka",
+                          "street": "5 Kita-ku",
+                          "zipCode": "530-0001"
+                      },
+                      "information": {
+                          "email": "osaka_bank@gmail.com",
+                          "hasATM": false,
+                          "contact": "+81 6 5555 4321",
+                          "zipCode": "530-0001"
+                      },
+                      "Establishment": "2000"
+                  },
+                  {
+                      "State": "Kyoto",
+                      "address": {
+                          "city": "Kyoto",
+                          "street": "10 Higashiyama-ku",
+                          "zipCode": "605-0001"
+                      },
+                      "information": {
+                          "email": "kyoto_bank@gmail.com",
+                          "hasATM": true,
+                          "contact": "+81 75 5555 6789",
+                          "zipCode": "605-0001"
+                      },
+                      "Establishment": "2005"
+                  },
+                  {
+                      "State": "Sapporo",
+                      "address": {
+                          "city": "Sapporo",
+                          "street": "7 Chuo-ku",
+                          "zipCode": "060-0001"
+                      },
+                      "information": {
+                          "email": "sapporo_bank@gmail.com",
+                          "hasATM": false,
+                          "contact": "+81 11 5555 9876",
+                          "zipCode": "060-0001"
+                      },
+                      "Establishment": "2010"
+                  },
+                  {
+                      "State": "Fukuoka",
+                      "address": {
+                          "city": "Fukuoka",
+                          "street": "15 Hakata-ku",
+                          "zipCode": "812-0001"
+                      },
+                      "information": {
+                          "email": "fukuoka_bank@gmail.com",
+                          "hasATM": true,
+                          "contact": "+81 92 5555 2468",
+                          "zipCode": "812-0001"
+                      },
+                      "Establishment": "2015"
+                  }
+              ],
+              "country": "Japan"
+          },
+          {
+              "bank": [
+                  {
+                      "State": "Sydney",
+                      "address": {
+                          "city": "Sydney",
+                          "street": "1 George Street",
+                          "zipCode": "2000"
+                      },
+                      "information": {
+                          "email": "sydney_bank@gmail.com",
+                          "hasATM": true,
+                          "contact": "+61 2 5555 1234",
+                          "zipCode": "2000"
+                      },
+                      "Establishment": "1990"
+                  },
+                  {
+                      "State": "Melbourne",
+                      "address": {
+                          "city": "Melbourne",
+                          "street": "5 Collins Street",
+                          "zipCode": "3000"
+                      },
+                      "information": {
+                          "email": "melbourne_bank@gmail.com",
+                          "hasATM": false,
+                          "contact": "+61 3 5555 4321",
+                          "zipCode": "3000"
+                      },
+                      "Establishment": "1995"
+                  },
+                  {
+                      "State": "Brisbane",
+                      "address": {
+                          "city": "Brisbane",
+                          "street": "10 Queen Street",
+                          "zipCode": "4000"
+                      },
+                      "information": {
+                          "email": "brisbane_bank@gmail.com",
+                          "hasATM": true,
+                          "contact": "+61 7 5555 6789",
+                          "zipCode": "4000"
+                      },
+                      "Establishment": "2000"
+                  },
+                  {
+                      "State": "Perth",
+                      "address": {
+                          "city": "Perth",
+                          "street": "7 St Georges Terrace",
+                          "zipCode": "6000"
+                      },
+                      "information": {
+                          "email": "perth_bank@gmail.com",
+                          "hasATM": false,
+                          "contact": "+61 8 5555 9876",
+                          "zipCode": "6000"
+                      },
+                      "Establishment": "2005"
+                  },
+                  {
+                      "State": "Adelaide",
+                      "address": {
+                          "city": "Adelaide",
+                          "street": "15 North Terrace",
+                          "zipCode": "5000"
+                      },
+                      "information": {
+                          "email": "adelaide_bank@gmail.com",
+                          "hasATM": true,
+                          "contact": "+61 8 5555 2468",
+                          "zipCode": "5000"
+                      },
+                      "Establishment": "2010"
+                  }
+              ],
+              "country": "Australia"
+          },
+          {
+              "bank": [
+                  {
+                      "State": "Kuala Lumpur",
+                      "address": {
+                          "city": "Kuala Lumpur",
+                          "street": "1 Jalan Ampang",
+                          "zipCode": "50450"
+                      },
+                      "information": {
+                          "email": "kl_bank@gmail.com",
+                          "hasATM": true,
+                          "contact": "+60 3 5555 1234",
+                          "zipCode": "50450"
+                      },
+                      "Establishment": "1990"
+                  },
+                  {
+                      "State": "Penang",
+                      "address": {
+                          "city": "George Town",
+                          "street": "5 Lebuh Pantai",
+                          "zipCode": "10300"
+                      },
+                      "information": {
+                          "email": "penang_bank@gmail.com",
+                          "hasATM": false,
+                          "contact": "+60 4 5555 4321",
+                          "zipCode": "10300"
+                      },
+                      "Establishment": "1995"
+                  },
+                  {
+                      "State": "Johor Bahru",
+                      "address": {
+                          "city": "Johor Bahru",
+                          "street": "10 Jalan Wong Ah Fook",
+                          "zipCode": "80000"
+                      },
+                      "information": {
+                          "email": "johor_bank@gmail.com",
+                          "hasATM": true,
+                          "contact": "+60 7 5555 6789",
+                          "zipCode": "80000"
+                      },
+                      "Establishment": "2000"
+                  },
+                  {
+                      "State": "Kuching",
+                      "address": {
+                          "city": "Kuching",
+                          "street": "7 Jalan Padungan",
+                          "zipCode": "93100"
+                      },
+                      "information": {
+                          "email": "kuching_bank@gmail.com",
+                          "hasATM": false,
+                          "contact": "+60 82 5555 9876",
+                          "zipCode": "93100"
+                      },
+                      "Establishment": "2005"
+                  },
+                  {
+                      "State": "Kota Kinabalu",
+                      "address": {
+                          "city": "Kota Kinabalu",
+                          "street": "15 Jalan Gaya",
+                          "zipCode": "88000"
+                      },
+                      "information": {
+                          "email": "kk_bank@gmail.com",
+                          "hasATM": true,
+                          "contact": "+60 88 5555 2468",
+                          "zipCode": "88000"
+                      },
+                      "Establishment": "2010"
+                  }
+              ],
+              "country": "Malaysia"
+          },
+          {
+              "bank": [
+                  {
+                      "State": "Colombo",
+                      "address": {
+                          "city": "Colombo",
+                          "street": "1 Galle Face Terrace",
+                          "zipCode": "00200"
+                      },
+                      "information": {
+                          "email": "colombo_bank@gmail.com",
+                          "hasATM": true,
+                          "contact": "+94 11 5555 1234",
+                          "zipCode": "00200"
+                      },
+                      "Establishment": "1990"
+                  },
+                  {
+                      "State": "Kandy",
+                      "address": {
+                          "city": "Kandy",
+                          "street": "5 Dalada Vidiya",
+                          "zipCode": "20000"
+                      },
+                      "information": {
+                          "email": "kandy_bank@gmail.com",
+                          "hasATM": false,
+                          "contact": "+94 81 5555 4321",
+                          "zipCode": "20000"
+                      },
+                      "Establishment": "1995"
+                  },
+                  {
+                      "State": "Galle",
+                      "address": {
+                          "city": "Galle",
+                          "street": "10 Main Street",
+                          "zipCode": "80000"
+                      },
+                      "information": {
+                          "email": "galle_bank@gmail.com",
+                          "hasATM": true,
+                          "contact": "+94 91 5555 6789",
+                          "zipCode": "80000"
+                      },
+                      "Establishment": "2000"
+                  },
+                  {
+                      "State": "Jaffna",
+                      "address": {
+                          "city": "Jaffna",
+                          "street": "7 Hospital Road",
+                          "zipCode": "40000"
+                      },
+                      "information": {
+                          "email": "jaffna_bank@gmail.com",
+                          "hasATM": false,
+                          "contact": "+94 21 5555 9876",
+                          "zipCode": "40000"
+                      },
+                      "Establishment": "2005"
+                  },
+                  {
+                      "State": "Negombo",
+                      "address": {
+                          "city": "Negombo",
+                          "street": "15 Beach Road",
+                          "zipCode": "11500"
+                      },
+                      "information": {
+                          "email": "negombo_bank@gmail.com",
+                          "hasATM": true,
+                          "contact": "+94 31 5555 2468",
+                          "zipCode": "11500"
+                      },
+                      "Establishment": "2010"
+                  }
+              ],
+              "country": "Sri Lanka"
+          },
+          {
+              "bank": [
+                  {
+                      "State": "Bogotá",
+                      "address": {
+                          "city": "Bogotá",
+                          "street": "1 Carrera 7",
+                          "zipCode": "11001"
+                      },
+                      "information": {
+                          "email": "bogota_bank@gmail.com",
+                          "hasATM": true,
+                          "contact": "+57 1 5555 1234",
+                          "zipCode": "11001"
+                      },
+                      "Establishment": "1992"
+                  },
+                  {
+                      "State": "Medellín",
+                      "address": {
+                          "city": "Medellín",
+                          "street": "5 Carrera 70",
+                          "zipCode": "05001"
+                      },
+                      "information": {
+                          "email": "medellin_bank@gmail.com",
+                          "hasATM": false,
+                          "contact": "+57 4 5555 4321",
+                          "zipCode": "05001"
+                      },
+                      "Establishment": "1997"
+                  },
+                  {
+                      "State": "Cali",
+                      "address": {
+                          "city": "Cali",
+                          "street": "10 Avenida 4",
+                          "zipCode": "76001"
+                      },
+                      "information": {
+                          "email": "cali_bank@gmail.com",
+                          "hasATM": true,
+                          "contact": "+57 2 5555 6789",
+                          "zipCode": "76001"
+                      },
+                      "Establishment": "2002"
+                  },
+                  {
+                      "State": "Cartagena",
+                      "address": {
+                          "city": "Cartagena",
+                          "street": "7 Calle de la Iglesia",
+                          "zipCode": "130001"
+                      },
+                      "information": {
+                          "email": "cartagena_bank@gmail.com",
+                          "hasATM": false,
+                          "contact": "+57 5 5555 9876",
+                          "zipCode": "130001"
+                      },
+                      "Establishment": "2007"
+                  },
+                  {
+                      "State": "Barranquilla",
+                      "address": {
+                          "city": "Barranquilla",
+                          "street": "15 Carrera 44",
+                          "zipCode": "080001"
+                      },
+                      "information": {
+                          "email": "barranquilla_bank@gmail.com",
+                          "hasATM": true,
+                          "contact": "+57 5 5555 2468",
+                          "zipCode": "080001"
+                      },
+                      "Establishment": "2012"
+                  }
+              ],
+              "country": "Colombia"
+          },
+          {
+              "bank": [
+                  {
+                      "State": "Mexico City",
+                      "address": {
+                          "city": "Mexico City",
+                          "street": "1 Paseo de la Reforma",
+                          "zipCode": "06000"
+                      },
+                      "information": {
+                          "email": "mexico_city_bank@gmail.com",
+                          "hasATM": true,
+                          "contact": "+52 55 5555 1234",
+                          "zipCode": "06000"
+                      },
+                      "Establishment": "1990"
+                  },
+                  {
+                      "State": "Guadalajara",
+                      "address": {
+                          "city": "Guadalajara",
+                          "street": "5 Avenida Juarez",
+                          "zipCode": "44100"
+                      },
+                      "information": {
+                          "email": "guadalajara_bank@gmail.com",
+                          "hasATM": false,
+                          "contact": "+52 33 5555 4321",
+                          "zipCode": "44100"
+                      },
+                      "Establishment": "1995"
+                  },
+                  {
+                      "State": "Monterrey",
+                      "address": {
+                          "city": "Monterrey",
+                          "street": "10 Calle Zaragoza",
+                          "zipCode": "64000"
+                      },
+                      "information": {
+                          "email": "monterrey_bank@gmail.com",
+                          "hasATM": true,
+                          "contact": "+52 81 5555 6789",
+                          "zipCode": "64000"
+                      },
+                      "Establishment": "2000"
+                  },
+                  {
+                      "State": "Puebla",
+                      "address": {
+                          "city": "Puebla",
+                          "street": "7 Boulevard 5 de Mayo",
+                          "zipCode": "72000"
+                      },
+                      "information": {
+                          "email": "puebla_bank@gmail.com",
+                          "hasATM": false,
+                          "contact": "+52 222 5555 9876",
+                          "zipCode": "72000"
+                      },
+                      "Establishment": "2005"
+                  },
+                  {
+                      "State": "Cancun",
+                      "address": {
+                          "city": "Cancun",
+                          "street": "15 Zona Hotelera",
+                          "zipCode": "77500"
+                      },
+                      "information": {
+                          "email": "cancun_bank@gmail.com",
+                          "hasATM": true,
+                          "contact": "+52 998 5555 2468",
+                          "zipCode": "77500"
+                      },
+                      "Establishment": "2010"
+                  }
+              ],
+              "country": "Mexico"
+          },
+          {
+              "bank": [
+                  {
+                      "State": "Buenos Aires",
+                      "address": {
+                          "city": "Buenos Aires",
+                          "street": "1 Avenida Corrientes",
+                          "zipCode": "1002"
+                      },
+                      "information": {
+                          "email": "buenos_aires_bank@gmail.com",
+                          "hasATM": true,
+                          "contact": "+54 11 5555 1234",
+                          "zipCode": "1002"
+                      },
+                      "Establishment": "1990"
+                  },
+                  {
+                      "State": "Cordoba",
+                      "address": {
+                          "city": "Cordoba",
+                          "street": "5 Boulevard San Juan",
+                          "zipCode": "5000"
+                      },
+                      "information": {
+                          "email": "cordoba_bank@gmail.com",
+                          "hasATM": false,
+                          "contact": "+54 351 5555 4321",
+                          "zipCode": "5000"
+                      },
+                      "Establishment": "1995"
+                  },
+                  {
+                      "State": "Rosario",
+                      "address": {
+                          "city": "Rosario",
+                          "street": "10 Avenida Pellegrini",
+                          "zipCode": "2000"
+                      },
+                      "information": {
+                          "email": "rosario_bank@gmail.com",
+                          "hasATM": true,
+                          "contact": "+54 341 5555 6789",
+                          "zipCode": "2000"
+                      },
+                      "Establishment": "2000"
+                  },
+                  {
+                      "State": "Mendoza",
+                      "address": {
+                          "city": "Mendoza",
+                          "street": "7 Calle San Martin",
+                          "zipCode": "5500"
+                      },
+                      "information": {
+                          "email": "mendoza_bank@gmail.com",
+                          "hasATM": false,
+                          "contact": "+54 261 5555 9876",
+                          "zipCode": "5500"
+                      },
+                      "Establishment": "2005"
+                  },
+                  {
+                      "State": "Mar del Plata",
+                      "address": {
+                          "city": "Mar del Plata",
+                          "street": "15 Avenida Independencia",
+                          "zipCode": "7600"
+                      },
+                      "information": {
+                          "email": "mar_del_plata_bank@gmail.com",
+                          "hasATM": true,
+                          "contact": "+54 223 5555 2468",
+                          "zipCode": "7600"
+                      },
+                      "Establishment": "2010"
+                  }
+              ],
+              "country": "Argentina"
+          },
+          {
+              "bank": [
+                  {
+                      "State": "New York",
+                      "address": {
+                          "city": "New York",
+                          "street": "1 Wall Street",
+                          "zipCode": "10005"
+                      },
+                      "information": {
+                          "email": "ny_bank@gmail.com",
+                          "hasATM": true,
+                          "contact": "+1 212 555 1234",
+                          "zipCode": "10005"
+                      },
+                      "Establishment": "1784"
+                  },
+                  {
+                      "State": "California",
+                      "address": {
+                          "city": "Los Angeles",
+                          "street": "5 Hollywood Boulevard",
+                          "zipCode": "90028"
+                      },
+                      "information": {
+                          "email": "la_bank@gmail.com",
+                          "hasATM": false,
+                          "contact": "+1 213 555 4321",
+                          "zipCode": "90028"
+                      },
+                      "Establishment": "1849"
+                  },
+                  {
+                      "State": "Texas",
+                      "address": {
+                          "city": "Houston",
+                          "street": "10 Main Street",
+                          "zipCode": "77002"
+                      },
+                      "information": {
+                          "email": "houston_bank@gmail.com",
+                          "hasATM": true,
+                          "contact": "+1 713 555 6789",
+                          "zipCode": "77002"
+                      },
+                      "Establishment": "1836"
+                  },
+                  {
+                      "State": "Florida",
+                      "address": {
+                          "city": "Miami",
+                          "street": "7 Ocean Drive",
+                          "zipCode": "33139"
+                      },
+                      "information": {
+                          "email": "miami_bank@gmail.com",
+                          "hasATM": false,
+                          "contact": "+1 305 555 9876",
+                          "zipCode": "33139"
+                      },
+                      "Establishment": "1845"
+                  },
+                  {
+                      "State": "Illinois",
+                      "address": {
+                          "city": "Chicago",
+                          "street": "15 Magnificent Mile",
+                          "zipCode": "60611"
+                      },
+                      "information": {
+                          "email": "chicago_bank@gmail.com",
+                          "hasATM": true,
+                          "contact": "+1 312 555 2468",
+                          "zipCode": "60611"
+                      },
+                      "Establishment": "1818"
+                  }
+              ],
+              "country": "United States"
+          },
+          {
+              "bank": [
+                  {
+                      "State": "Riyadh",
+                      "address": {
+                          "city": "Riyadh",
+                          "street": "1 King Fahd Road",
+                          "zipCode": "11421"
+                      },
+                      "information": {
+                          "email": "riyadh_bank@gmail.com",
+                          "hasATM": true,
+                          "contact": "+966 11 5555 1234",
+                          "zipCode": "11421"
+                      },
+                      "Establishment": "1979"
+                  },
+                  {
+                      "State": "Jeddah",
+                      "address": {
+                          "city": "Jeddah",
+                          "street": "5 Prince Mohammed Bin Abdulaziz Street",
+                          "zipCode": "21589"
+                      },
+                      "information": {
+                          "email": "jeddah_bank@gmail.com",
+                          "hasATM": false,
+                          "contact": "+966 12 5555 4321",
+                          "zipCode": "21589"
+                      },
+                      "Establishment": "1982"
+                  },
+                  {
+                      "State": "Dammam",
+                      "address": {
+                          "city": "Dammam",
+                          "street": "10 King Fahd Road",
+                          "zipCode": "32273"
+                      },
+                      "information": {
+                          "email": "dammam_bank@gmail.com",
+                          "hasATM": true,
+                          "contact": "+966 13 5555 6789",
+                          "zipCode": "32273"
+                      },
+                      "Establishment": "1985"
+                  },
+                  {
+                      "State": "Medina",
+                      "address": {
+                          "city": "Medina",
+                          "street": "7 King Fahd Road",
+                          "zipCode": "42311"
+                      },
+                      "information": {
+                          "email": "medina_bank@gmail.com",
+                          "hasATM": false,
+                          "contact": "+966 14 5555 9876",
+                          "zipCode": "42311"
+                      },
+                      "Establishment": "1990"
+                  },
+                  {
+                      "State": "Khobar",
+                      "address": {
+                          "city": "Khobar",
+                          "street": "15 Corniche Road",
+                          "zipCode": "31952"
+                      },
+                      "information": {
+                          "email": "khobar_bank@gmail.com",
+                          "hasATM": true,
+                          "contact": "+966 13 5555 2468",
+                          "zipCode": "31952"
+                      },
+                      "Establishment": "1995"
+                  }
+              ],
+              "country": "Saudi Arabia"
+          }
+      ]
+  },
+  "id": "9a9d4017-72fd-4ac5-9891-2c40c1b13cd9",
+  "displayName": "JSON Simuwallet",
+  "version": 1
+}

@@ -1,0 +1,31 @@
+<!-- activity_transaction_history.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+    <!-- Add a FrameLayout to hold fragments -->
+    <FrameLayout
+        android:id="@+id/fragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="#2B6488"
+        app:menu="@menu/bottom_nav_menu"
+        app:itemIconSize="25dp"
+        app:itemTextColor="@color/white"
+        app:itemIconTint="@color/white"/>
+
+
+
+
+</LinearLayout>

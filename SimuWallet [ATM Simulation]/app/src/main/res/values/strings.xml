@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Project101</string>
+    <string name="atmaster">ATMaster</string>
+    <string name="simuwallet">SimuWallet</string>
+    <string name="dasshboard">Dasshboard</string>
+    <string name="simuwallett">SimuWallet</string>
+    <string name="simuwallettt">SimuWallet</string>
+    <string name="enter_credentials_to_continue">Enter Credentials To Continue</string>
+    <string name="todo">TODO</string>
+    <string name="enter_pin_number">Enter Pin Number</string>
+    <string name="enter_card_number">Enter Card Number</string>
+    <string name="enter">Enter</string>
+    <string name="banking_but_better">Banking , But Better !</string>
+    <string name="todo1">TODO</string>
+    <string name="todo2">TODO</string>
+    <string name="simuwalleta">SimuWallet</string>
+    <string name="one_stop_banking_solution">One Stop Banking Solution</string>
+    <string name="one_stop_banking_solution1">One Stop Banking Solution</string>
+    <string name="one_stop_banking_solution11">One Stop Banking Solution</string>
+    <string name="cash_withdraw">Cash Withdraw</string>
+    <string name="account_info">Account Info.</string>
+    <string name="pin_change">Pin Change</string>
+    <string name="balance_check">Balance Check</string>
+    <string name="home">Home</string>
+    <string name="website">Website</string>
+    <string name="exit">Exit</string>
+    <string name="profile">Profile</string>
+    <string name="login" />
+    <string name="logout" />
+    <string name="help_and_support">Help and Support</string>
+    <string name="branch_locator">Branch Locator</string>
+    <string name="find_atm">Find ATM</string>
+    <string name="about">About</string>
+    <string name="others">Others</string>
+    <string name="share_app">Share App</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="banking_at_your_fingertips">Banking at Your Fingertips</string>
+    <string name="simuwallet2">SimuWallet</string>
+    <string name="logina">Login</string>
+    <string name="logouts">Logout</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigaton drwer</string>
+    <string name="todo11">TODO</string>
+    <string name="todo111">TODO</string>
+    <string name="simuwalletk">SimuWallet</string>
+    <string name="login1">Login</string>
+    <string name="new_user_register_here">New User? Register Here !</string>
+    <string name="register_to_continue">Register to continue</string>
+    <string name="name">Name</string>
+    <string name="balance">Balance</string>
+    <string name="branch">Branch</string>
+    <string name="already_registered_log_in_here">Already Registered ? Log in Here !</string>
+    <string name="contact">Contact</string>
+
+    //Headings
+    <string name="heading_one">Quick &amp; Easy Payments</string>
+    <string name="heading_two">Instant Deposit</string>
+    <string name="heading_three">Cashless Payment</string>
+    <string name="heading_fourth">Banking Anywhere</string>
+
+    //Description
+    <string name="desc_one">Grow your Business By Accepting Card Payments with Simuwallet To Begin a New Dimension</string>
+    <string name="desc_two">Swift and Seamless: Your Money, Your Time – Instant Payments at Your Fingertips!</string>
+    <string name="desc_three">Go Beyond Cash: Effortless Transactions, Limitless Possibilities – Embrace the Future with Our Cashless Payment Experience!</string>
+    <string name="desc_fourth">Banking Unleashed, Anywhere You Go – Elevate Your Financial Freedom with Our ATM App!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

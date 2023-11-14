@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+
+            android:icon="@drawable/home_24"
+            android:id="@+id/nav_home"
+            android:title="@string/home" />
+
+        <item
+
+            android:icon="@drawable/webhook_24"
+            android:id="@+id/website"
+            android:title="@string/website" />
+        <item
+
+            android:icon="@drawable/news"
+            android:id="@+id/news"
+            android:title="Top Stories" />
+
+        <item
+
+            android:icon="@drawable/exit_to_app_24"
+            android:id="@+id/exit"
+            android:title="@string/exit" />
+
+    </group>
+
+    <item android:title="@string/profile">
+
+        <menu>
+
+            <group android:checkableBehavior="single">
+
+                <item
+
+                    android:icon="@drawable/login"
+                    android:id="@+id/login"
+                    android:title="Register"/>
+
+                <item
+
+                    android:icon="@drawable/person_24"
+                    android:id="@+id/profile"
+                    android:title="@string/profile" />
+
+                <item
+
+                    android:icon="@drawable/logout_24"
+                    android:id="@+id/logout"
+                    android:title="@string/logouts" />
+
+            </group>
+
+        </menu>
+
+    </item>
+
+    <item android:title="@string/help_and_support">
+
+        <menu>
+
+            <group android:checkableBehavior="single">
+
+                <item
+
+                    android:icon="@drawable/location"
+                    android:id="@+id/atm"
+                    android:title="@string/find_atm" />
+                <item
+
+                    android:icon="@drawable/branch"
+                    android:id="@+id/branch"
+                    android:title="@string/branch_locator" />
+                <item
+
+                    android:icon="@drawable/info_24"
+                    android:id="@+id/about"
+                    android:title="@string/about" />
+                <item
+
+                    android:icon="@drawable/contact"
+                    android:id="@+id/contact"
+                    android:title="@string/contact" />
+
+            </group>
+
+        </menu>
+
+    </item>
+
+    <item android:title="@string/others">
+
+        <menu>
+
+            <group android:checkableBehavior="single">
+
+                <item
+
+                    android:icon="@drawable/share"
+                    android:id="@+id/share"
+                    android:title="@string/share_app" />
+
+                <item
+
+                    android:icon="@drawable/rate"
+                    android:id="@+id/rate"
+                    android:title="@string/rate_us" />
+
+
+            </group>
+
+        </menu>
+
+    </item>
+
+
+</menu>
